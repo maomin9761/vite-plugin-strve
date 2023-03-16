@@ -1,9 +1,25 @@
-# strve-loader
+# vite-plugin-strve
 
-strve loader plugin for vite.
+Strve loader plugin for vite.
 
-# Install
+## Install
 
 ```bash
-npm i strve-loader -D
+npm i vite-plugin-strve -D
 ```
+
+## Usage
+
+```js
+import { defineConfig } from 'vite';
+import strve from 'vite-plugin-strve';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+	plugins: [strve()],
+});
+```
+
+## License
+
+[MIT License](https://opensource.org/licenses/MIT)

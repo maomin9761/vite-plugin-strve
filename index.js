@@ -1,9 +1,10 @@
 import pkg from 'fs-extra';
+
 const { readFileSync } = pkg;
 
-export default function strve(options = {}) {
+export default function strve() {
 	return {
-		name: 'strve-loader',
+		name: 'vite-plugin-strve',
 		enforce: 'pre',
 		transform(code, id) {
 			if (id.endsWith('.strve')) {
