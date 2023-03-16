@@ -12,9 +12,8 @@ npm i vite-plugin-strve -D
 
 ```js
 import { defineConfig } from 'vite';
-import strve from 'vite-plugin-strve';
+import { strve } from 'vite-plugin-strve';
 
-// https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [strve()],
 });

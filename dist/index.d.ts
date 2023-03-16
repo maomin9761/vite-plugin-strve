@@ -6,4 +6,4 @@ declare function strve(): {
     } | undefined;
 };
 
-export { strve as default };
+export { strve };

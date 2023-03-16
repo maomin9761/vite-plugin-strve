@@ -2,7 +2,7 @@ import pkg from 'fs-extra';
 
 const { readFileSync } = pkg;
 
-function strve() {
+export function strve() {
 	return {
 		name: 'vite-plugin-strve',
 		enforce: 'pre',
@@ -16,5 +16,3 @@ function strve() {
 		},
 	};
 }
-
-export default strve;
