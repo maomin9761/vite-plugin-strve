@@ -3,7 +3,7 @@ const { readFileSync } = pkg;
 
 export default function strve(options = {}) {
 	return {
-		name: 'vite-plugin-strve-loader',
+		name: 'strve-loader',
 		enforce: 'pre',
 		transform(code, id) {
 			if (id.endsWith('.strve')) {
