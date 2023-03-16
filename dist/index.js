@@ -1,8 +1,10 @@
-import pkg from 'fs-extra';
+'use strict';
+
+var pkg = require('fs-extra');
 
 const { readFileSync } = pkg;
 
-export default function strve() {
+function strve() {
 	return {
 		name: 'vite-plugin-strve',
 		enforce: 'pre',
@@ -16,3 +18,5 @@ export default function strve() {
 		},
 	};
 }
+
+module.exports = strve;
