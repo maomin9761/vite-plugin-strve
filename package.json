@@ -1,6 +1,6 @@
 {
 	"name": "vite-plugin-strve",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"description": "Strve loader plugin for vite.",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
@@ -30,6 +30,9 @@
 		"url": "https://github.com/maomincoding/vite-plugin-strve/issues"
 	},
 	"homepage": "https://github.com/maomincoding/vite-plugin-strve#readme",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	},
 	"devDependencies": {
 		"fs-extra": "^11.1.0"
 	}
