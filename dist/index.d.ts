@@ -5,4 +5,5 @@ declare function strve(): {
         code: string;
     } | undefined;
 };
+
 export { strve as default };
