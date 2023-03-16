@@ -1,0 +1,22 @@
+{
+	"name": "vite-plugin-strve",
+	"version": "1.0.0",
+	"description": "strve loader plugin for vite",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/maomincoding/vite-plugin-strve.git"
+	},
+	"author": "maomincoding",
+	"keywords": [
+		"strve",
+		"strve-js",
+		"vite",
+		"vite-plugin",
+		"vite plugin"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"fs-extra": "^11.1.0"
+	}
+}
