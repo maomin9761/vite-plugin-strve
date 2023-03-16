@@ -1,6 +1,6 @@
 {
 	"name": "vite-plugin-strve",
-	"version": "1.2.6",
+	"version": "1.2.8",
 	"description": "Strve loader plugin for vite.",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",

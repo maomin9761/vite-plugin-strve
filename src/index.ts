@@ -17,4 +17,4 @@ function strve() {
 	};
 }
 
-export { strve as default };
+export default strve;
