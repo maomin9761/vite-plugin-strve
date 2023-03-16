@@ -1,14 +1,16 @@
 {
-	"name": "vite-plugin-strve",
+	"name": "vite-plugin-strve-loader",
 	"version": "1.0.0",
 	"description": "strve loader plugin for vite",
 	"main": "index.js",
+	"module": "index.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/maomincoding/vite-plugin-strve.git"
+		"url": "git+https://github.com/maomincoding/vite-plugin-strve-loader.git"
 	},
 	"author": "maomincoding",
 	"keywords": [
+		"vite-plugin-strve-loader",
 		"strve",
 		"strve-js",
 		"vite",
